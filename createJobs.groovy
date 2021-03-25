@@ -12,3 +12,12 @@ pipelineJob('theme-park-job') {
         }
     }
 }
+
+pipelineJob('pipelineJob') {
+    definition {
+        cps {
+            script(readFileFromWorkspace('pipelineJob.groovy'))
+            sandbox()
+        }
+    }
+}

@@ -1,7 +1,2 @@
-.gradle/6.8/executionHistory/executionHistory.bin
-.gradle/6.8/executionHistory/executionHistory.lock
-.gradle/6.8/fileHashes/fileHashes.bin
-.gradle/6.8/fileHashes/fileHashes.lock
-.gradle/6.8/gc.properties
-.gradle/6.8/fileChanges/last-build.bin
-.gradle/configuration-cache/gc.properties
+.gradle
+.idea
