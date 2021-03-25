@@ -4,7 +4,7 @@ pipelineJob('theme-park-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/shinichi495/jenkins-demo.git'
+                        url 'https://github.com/shinichi495/api-demo-jenkins.git'
                     }
                     branch 'master'
                 }
