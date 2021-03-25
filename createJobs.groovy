@@ -4,9 +4,9 @@ pipelineJob('theme-park-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/shinichi495/api-demo-jenkins.git'
+                        url 'https://namph16@bitbucket.org/unifiedpost/myid-user-service.git'
                     }
-                    branch 'master'
+                    branch 'feature/MDC-299'
                 }
             }
         }
