@@ -22,7 +22,7 @@ pipelineJob('myid-user-server-docker-job') {
                         url 'https://github.com/shinichi495/myid-test-api.git'
                     }
                     branch 'master'
-                    scriptPath('Jenkinfile-docker')
+                    scriptPath('Jenkinsfile-docker')
                 }
             }
         }
